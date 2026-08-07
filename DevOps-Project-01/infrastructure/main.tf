@@ -10,10 +10,10 @@ terraform {
   }
   
   backend "s3" {
-    # Update these values according to your setup
-    # bucket = "muhannad-terraform-backend-bucket"
-    # key    = "java-app/terraform.tfstate"
-    # region = "ap-south-1"
+    
+     bucket = "muhannad-terraform-backend-bucket"
+     key    = "java-app/terraform.tfstate"
+     region = "ap-south-1"
   }
 }
 
