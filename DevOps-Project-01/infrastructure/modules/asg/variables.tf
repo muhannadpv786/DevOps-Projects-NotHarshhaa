@@ -1,3 +1,4 @@
+
 # ASG Module
 
 variable "environment" {
@@ -48,9 +49,4 @@ variable "max_size" {
 variable "desired_capacity" {
   description = "Desired capacity of ASG"
   type        = number
-}
-
-output "asg_name" {
-  description = "Auto Scaling Group name"
-  value       = aws_autoscaling_group.main.name
 }
